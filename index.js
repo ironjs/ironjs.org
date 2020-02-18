@@ -31,8 +31,7 @@ function App() {
 					),
 					e.p(e.em('* Iron is alpha and highly experimental.'))
 				),
-				e.div.column(
-					{ style: { padding: '1em', margin: '1em', background: '#233239' } },
+				e.div.column.codePreview(
 					e.img({
 						src: '/assets/example-screenshot.png',
 						style: { width: '100%' },

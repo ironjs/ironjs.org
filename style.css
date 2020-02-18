@@ -64,6 +64,11 @@ footer {
 	.columns {
 		flex-direction: column;
 	}
+	.codePreview {
+		padding: '1em';
+		margin: '1em';
+		background: '#233239';
+	}
 }
 .columns .column {
 	flex: 1;
