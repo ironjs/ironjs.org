@@ -1,15 +1,87 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #aaa;
-	color: #111;
-	background: #000333;
+	font-size: 20px;
+	min-height: 100vh;
 	color: white;
-	font-size: 18px;
+	background: #000333;
+	background: linear-gradient(to bottom right, #000333, #333666);
 }
 
 * {
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	max-width: 1140px;
+	margin: auto;
+	padding: 1em;
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+@media screen and (min-width: 640px) {
+	header {
+		flex-direction: row;
+	}
+}
+
+header nav a {
+	display: inline-block;
+	color: white;
+	font-size: 1.2em;
+	margin: 0.8em;
+	text-decoration: none;
+}
+
+header .logo img {
+	max-width: 200px;
+}
+
+content {
+	margin-top: 64px;
+}
+
+footer {
+	color: #ddd;
+	font-size: 0.8em;
+}
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+	.columns {
+		flex-direction: column;
+	}
+}
+.columns .column {
+	flex: 1;
+}
+
+h1 {
+	font-size: 2.3em;
+	margin: 0 0 60px 0;
+}
+
+p {
+	margin: 1.5em 0;
+	margin-bottom: 60px;
+}
+
+em {
+	color: #aaa;
 }
 
 button,
@@ -18,25 +90,7 @@ button,
 	background: transparent;
 	color: white;
 	font-size: inherit;
-	margin: 0 0.5em;
-	padding: 0.5em 1em;
+	padding: 0.8em;
 	text-decoration: none;
-}
-
-.container {
-	max-width: 800px;
-	margin: auto;
-	padding: 1em;
-	box-sizing: border-box;
-	text-align: center;
-}
-
-footer {
-	color: #ddd;
-	font-size: 0.8em;
-}
-
-p {
-	margin: 1em 0;
-	position: relative;
+	display: inline-block;
 }
