@@ -1,0 +1,9 @@
+#!/bin/bash
+sh $(livereload) &  PID_LR=$!
+sh $(ws) &  PID_WS=$!
+
+sleep 1
+open "http://localhost:8000"
+
+wait $PID_LR
+wait $PID_WS

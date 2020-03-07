@@ -1,0 +1,10 @@
+{
+	"name": "ironjs-website",
+	"prettier": "prettier-config-modern",
+	"scripts": {
+		"dev": "./scripts/dev"
+	},
+	"devDependencies": {
+		"prettier-config-modern": "^1.0.0"
+	}
+}
