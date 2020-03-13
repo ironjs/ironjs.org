@@ -10,9 +10,9 @@ function App() {
 				})
 			),
 			e.nav(
-				e.a({ href: 'http://github.com/samholmes/iron#features' }, 'Features'),
-				e.a({ href: 'http://github.com/samholmes/iron#documentation' }, 'Docs'),
-				e.a({ href: 'http://github.com/samholmes/iron' }, 'GitHub')
+				e.a({ href: 'http://github.com/ironjs/iron#features' }, 'Features'),
+				e.a({ href: 'http://github.com/ironjs/iron#documentation' }, 'Docs'),
+				e.a({ href: 'http://github.com/ironjs/iron' }, 'GitHub')
 			)
 		),
 		e.content(
@@ -25,7 +25,7 @@ function App() {
 					`),
 					e.p(
 						e.a.button(
-							{ href: 'http://github.com/samholmes/iron#documentation' },
+							{ href: 'http://github.com/ironjs/iron#installation' },
 							'Get Started'
 						)
 					),
