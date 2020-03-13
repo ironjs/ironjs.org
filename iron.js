@@ -1,1 +1,1 @@
-export * from 'https://cdn.jsdelivr.net/gh/samholmes/iron@0.0.3-alpha/dist/index.js'
+export * from 'https://unpkg.com/ironjs@0.0.12-alpha?module'
